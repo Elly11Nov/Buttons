@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smaller Circular Buttons</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;              /* horizontal spacing between buttons */
+    padding: 30px;
+    background-color: #ffffff;
+  }
+
+  .circle-button {
+    width: 70px;             /* smaller circle */
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    transition: all 0.2s ease;
+    flex-shrink: 0;
+    padding: 5px;
+  }
+
+  .circle-button:hover {
+    transform: scale(1.1);
+    border-color: #4A90E2;
+    color: #4A90E2;
+  }
+
+  .circle-button span.emoji {
+    font-size: 26px;         /* smaller emoji */
+    line-height: 1;
+  }
+
+  .circle-button span.label {
+    font-size: 10px;         /* smaller label */
+    margin-top: 3px;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
+<a href="https://www.notion.so/About-me-25935378d5bb80548d8cf7896910bb21" class="circle-button">
+  <span class="emoji">🔵</span>
+  <span class="label">About Me</span>
+</a>
+
+<a href="https://www.notion.so/Projects-25935378d5bb804c9a3acb764ca9cb03" class="circle-button">
+  <span class="emoji">📽️</span>
+  <span class="label">Projects</span>
+</a>
+
+<a href="https://www.notion.so/Skills-and-Expertise-25935378d5bb8053b0cce2a91287a2dc" class="circle-button">
+  <span class="emoji">🪒</span>
+  <span class="label">Skills</span>
+</a>
+
+<a href="https://www.notion.so/Resume-25935378d5bb80aaac35f05a46939252" class="circle-button">
+  <span class="emoji">💼</span>
+  <span class="label">Resume</span>
+</a>
+
+<a href="https://www.notion.so/Contacts-25935378d5bb80cf9b90f4982ba9697e" class="circle-button">
+  <span class="emoji">📩</span>
+  <span class="label">Contact</span>
+</a>
+
+<a href="https://www.notion.so/Portfolio-25935378d5bb80aaa143f674380797db" class="circle-button">
+  <span class="emoji">📑</span>
+  <span class="label">Portfolio</span>
+</a>
+
+</body>
+</html>
